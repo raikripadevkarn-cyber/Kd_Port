@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <h2 class="logo">Portfolio</h2>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home-content" data-aos="fade-up">
+        <!-- Profile Pic -->
+        <div class="profile-pic">
+          <img src="me.jpeg" alt="Profile Picture" />
+        </div>
+
+        <h1>Hello, I'm <span>Kripa Dev Karn</span></h1>
+        <p>Frontend Developer | Web Designer</p>
+
+        <div class="buttons">
+          <a href="#contact" class="btn">Hire Me</a>
+          <a href="Kripa_Dev_Karn_Advanced_Resume.pdf" download class="btn outline">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2 data-aos="fade-right">About Me</h2>
+      <p data-aos="fade-left">
+        I am a web development student skilled in HTML, CSS, JavaScript, Python
+        & WordPress. I build modern, responsive websites with great UI/UX.
+      </p>
+    </section>
+
+    <!-- Education -->
+<section id="education">
+  <h2 data-aos="fade-right">Education</h2>
+
+  <div class="education-container">
+
+    <div class="edu-card" data-aos="fade-up">
+      <h3>Master of Technology (M.Tech)</h3>
+      <span class="edu-year">2025 - 2027</span>
+      <p>RGPV University</p>
+      <p>Pursuing.</p>
+    </div>
+
+    <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+      <h3>Bachelor of Technology (B.Tech)</h3>
+      <span class="edu-year">2022 - 2025</span>
+      <p>Shri Ram Institute of Technology</p>
+      <p>Completed with strong academic performance.</p>
+    </div>
+
+    <div class="edu-card" data-aos="fade-up" data-aos-delay="400">
+      <h3>Diploma in Computer Science</h3>
+      <span class="edu-year">2019 - 2022</span>
+      <p>Oriental Institute of Science and Technology.</p>
+      <p>Completed with strong academic performance.</p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 data-aos="zoom-in">Projects</h2>
+
+      <div class="project-container">
+        <div class="card" data-aos="fade-up">
+          <h3>Portfolio Website</h3>
+          <p>Responsive portfolio using HTML, CSS, JS.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <h3>Netflix Clone</h3>
+          <p>Responsive Clone using HTML, CSS, JS.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="400">
+          <h3>Aspiration Landing Page</h3>
+          <p>Responsive Coaching Landing page using HTML, CSS, JS.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2 data-aos="fade-down">Contact Me</h2>
+
+      <form data-aos="fade-up">
+        <input type="text" placeholder="Kripa Dev Karn" required />
+        <input type="email" placeholder="raikripadevkarn@gmail.com" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2026 Kripa Dev Karn | All Rights Reserved</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
